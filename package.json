@@ -1,0 +1,45 @@
+{
+	"name": "mav",
+	"description": "Magyar Államvasutak (MÁV, Hungarian State Railways) API client.",
+	"version": "0.0.0",
+	"keywords": [
+		"MÁV",
+		"mav.hu",
+		"magyar",
+		"Államvasutak",
+		"hu",
+		"train",
+		"railway",
+		"api",
+		"client",
+		"hungary"
+	],
+	"author": "Julius Tens <mail@juliustens.de>",
+	"homepage": "https://github.com/juliuste/mav",
+	"repository": "juliuste/mav",
+	"bugs": "https://github.com/juliuste/mav/issues",
+	"main": "./index.js",
+	"files": [
+		"index.js",
+		"lib/*"
+	],
+	"dependencies": {
+		"got": "^7.1.0",
+		"lodash.isdate": "^4.0.1",
+		"lodash.isstring": "^4.0.1"
+	},
+	"devDependencies": {
+		"lodash.isnumber": "^3.0.3",
+		"lodash.isobject": "^3.0.2",
+		"moment-timezone": "^0.5.14",
+		"tape": "^4.8.0"
+	},
+	"scripts": {
+		"test": "node test.js",
+		"prepare": "npm test"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"license": "ISC"
+}
