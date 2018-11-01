@@ -1,7 +1,7 @@
 'use strict'
 
 const tape = require('tape')
-const mav = require('./index')
+const mav = require('.')
 const isString = require('lodash.isstring')
 const isNumber = require('lodash.isnumber')
 const isDate = require('lodash.isdate')
