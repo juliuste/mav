@@ -50,7 +50,6 @@ tape('mav', async (t) => {
 
 	// journeys
 	const kelenfoeld = stations.find((x) => x.name.indexOf('Kelenföld')>=0)
-	console.log(kelenfoeld)
 	const journeys = await mav.journeys(keleti, kelenfoeld, date)
 	t.ok(journeys.length >= 1, 'journeys length')
 	const journey = journeys[0]
