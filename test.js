@@ -1,6 +1,8 @@
 'use strict'
 
-const tape = require('tape')
+const tapeWithoutPromise = require('tape')
+const addPromiseSupport = require('tape-promise').default
+const tape = addPromiseSupport(tapeWithoutPromise)
 const mav = require('.')
 const isString = require('lodash.isstring')
 const isNumber = require('lodash.isnumber')

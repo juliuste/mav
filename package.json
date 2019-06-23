@@ -46,7 +46,8 @@
 		"lodash.isnumber": "^3.0.3",
 		"lodash.isobject": "^3.0.2",
 		"moment-timezone": "^0.5.14",
-		"tape": "^4.10.2"
+		"tape": "^4.10.2",
+		"tape-promise": "^4.0.0"
 	},
 	"engines": {
 		"node": ">=8"
