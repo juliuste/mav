@@ -31,7 +31,7 @@
 		"test": "npm run lint && npm run check-deps && node test"
 	},
 	"dependencies": {
-		"got": "^9.0.0",
+		"got": "^9.6.0",
 		"lodash": "^4.17.11"
 	},
 	"devDependencies": {
@@ -42,7 +42,7 @@
 		"eslint-plugin-node": "^9.1.0",
 		"eslint-plugin-promise": "^4.1.1",
 		"eslint-plugin-standard": "^4.0.0",
-		"moment-timezone": "^0.5.14",
+		"moment-timezone": "^0.5.25",
 		"tape": "^4.10.2",
 		"tape-promise": "^4.0.0"
 	},
