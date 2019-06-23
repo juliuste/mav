@@ -51,12 +51,12 @@ tape('mav', async (t) => {
 	t.ok(train.stops.every(isTrainStop), 'train stops')
 
 	// journeys
-	const kelenfoeld = stations.find((x) => x.name.indexOf('Kelenföld')>=0)
+	const kelenfoeld = stations.find((x) => x.name.indexOf('Kelenföld') >= 0)
 	const journeys = await mav.journeys(keleti, kelenfoeld, date)
 	t.ok(journeys.length >= 1, 'journeys length')
 	const journey = journeys[0]
 	t.ok(journey.type === 'journey', 'journey type')
-	if(isObject(journey.price)){
+	if (isObject(journey.price)) {
 		t.ok(isNumber(journey.price.amount) && journey.price.amount > 0, 'journey price amount')
 		t.ok(journey.price.currency === 'HUF', 'journey price currency')
 	}
