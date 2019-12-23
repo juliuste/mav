@@ -31,7 +31,7 @@
 		"test": "npm run lint && npm run check-deps && node test"
 	},
 	"dependencies": {
-		"got": "^9.6.0",
+		"got": "^10.2.0",
 		"lodash": "^4.17.11"
 	},
 	"devDependencies": {
