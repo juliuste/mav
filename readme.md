@@ -1,6 +1,6 @@
 # mav
 
-Client for the [Magyar Államvasutak](https://www.mavcsoport.hu) (MÁV, Hungarian State Railways) REST API. Inofficial, please ask MÁV for permission before using this module in production.
+Client for the [Magyar Államvasutak](https://www.mavcsoport.hu) (MÁV, Hungarian State Railways) REST API. Unofficial, please ask MÁV for permission before using this module in production.
 
 [![npm version](https://img.shields.io/npm/v/mav.svg)](https://www.npmjs.com/package/mav)
 [![Build Status](https://travis-ci.org/juliuste/mav.svg?branch=master)](https://travis-ci.org/juliuste/mav)
